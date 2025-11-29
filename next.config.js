@@ -2,7 +2,7 @@
 const nextConfig = {
   images: {
     domains: ['localhost'],
-    // Add your CMS image domains here in the future (e.g., Sanity, Contentful)
+    unoptimized: false,
     remotePatterns: [
       {
         protocol: 'https',
@@ -12,10 +12,18 @@ const nextConfig = {
         protocol: 'https',
         hostname: '**.contentful.com',
       },
+      {
+        protocol: 'https',
+        hostname: '**.supabase.co',
+      },
     ],
   },
-  // Enable React strict mode for better development experience
   reactStrictMode: true,
+  swcMinify: true,
+  // Suppress hydration warnings in development
+  compiler: {
+    removeConsole: process.env.NODE_ENV === 'production',
+  },
 }
 
 module.exports = nextConfig
