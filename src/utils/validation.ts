@@ -92,4 +92,9 @@ export const isValidDate = (dateString: string): boolean => {
 }
 
 // Check if date is in the past
-export const is
+
+export const isPastDate = (dateString: string): boolean => {
+  const date = new Date(dateString)
+  if (isNaN(date.getTime())) return false
+  return date < new Date()
+}
