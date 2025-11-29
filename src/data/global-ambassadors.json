@@ -1,0 +1,82 @@
+{
+  "ambassadors": [
+    {
+      "id": "amb-001",
+      "name": "Bishop William Wealth Samuel",
+      "post": "Presiding Bishop (USA)",
+      "image": "/images/placeholder-1.jpg"
+    },
+    {
+      "id": "amb-002",
+      "name": "Rich Merlo",
+      "post": "USA",
+      "image": "/images/placeholder-2.jpg"
+    },
+    {
+      "id": "amb-003",
+      "name": "Andrew Barazaar",
+      "post": "USA",
+      "image": "/images/placeholder-3.jpg"
+    },
+    {
+      "id": "amb-004",
+      "name": "Armando Hinojos",
+      "post": "USA",
+      "image": "/images/placeholder-1.jpg"
+    },
+    {
+      "id": "amb-005",
+      "name": "Tim Molina",
+      "post": "USA",
+      "image": "/images/placeholder-2.jpg"
+    },
+    {
+      "id": "amb-006",
+      "name": "Raymond Echavaria",
+      "post": "USA",
+      "image": "/images/placeholder-3.jpg"
+    },
+    {
+      "id": "amb-007",
+      "name": "Frank Flores",
+      "post": "USA",
+      "image": "/images/placeholder-1.jpg"
+    },
+    {
+      "id": "amb-008",
+      "name": "Prohetess Leisle",
+      "post": "USA",
+      "image": "/images/placeholder-2.jpg"
+    },
+    {
+      "id": "amb-009",
+      "name": "Dr. Wiseman Aaron",
+      "post": "Zimbabwe",
+      "image": "/images/placeholder-3.jpg"
+    },
+    {
+      "id": "amb-010",
+      "name": "Mother Faith Smith",
+      "post": "Liberia",
+      "image": "/images/placeholder-1.jpg"
+    },
+    {
+      "id": "amb-011",
+      "name": "Prince Henry Benigbo Ogbe",
+      "post": "Nigeria",
+      "image": "/images/placeholder-2.jpg"
+    },
+    {
+      "id": "amb-012",
+      "name": "Apostle Dr. Daniel Olalekan Odemeji",
+      "post": "LIMA National Director, Nigeria",
+      "image": "/images/placeholder-3.jpg"
+    },
+    {
+      "id": "amb-013",
+      "name": "Princess Barr. Fina Ogbe",
+      "post": "LIMA National Asst. Director, Nigeria",
+      "image": "/images/placeholder-1.jpg"
+    }
+  ]
+}

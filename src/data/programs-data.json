@@ -1,0 +1,1120 @@
+{
+  "programs": [
+    {
+      "id": "certificate-ministry",
+      "title": "Certificate in Ministry",
+      "description": "The Certificate in Ministry is an ideal starting point for students who desire to know God's Word and need a basic Biblical foundation for Spirit-filled Ministry.",
+      "credits": 30,
+      "duration": "6 Months",
+      "icon": "📚",
+      "courses": [
+        {
+          "code": "CC101",
+          "name": "Christian Foundations",
+          "credits": 3
+        },
+        {
+          "code": "CC102",
+          "name": "Knowing God's Voice",
+          "credits": 3
+        },
+        {
+          "code": "CC103",
+          "name": "The Five-Fold Prayer",
+          "credits": 3
+        },
+        {
+          "code": "CC104",
+          "name": "Old Testament Survey",
+          "credits": 3
+        },
+        {
+          "code": "CC105",
+          "name": "New Testament Survey",
+          "credits": 3
+        },
+        {
+          "code": "CC106",
+          "name": "Christian Ethics",
+          "credits": 3
+        },
+        {
+          "code": "CC107",
+          "name": "Releasing your Divine Call",
+          "credits": 3
+        },
+        {
+          "code": "CC108",
+          "name": "Biblical Excellence",
+          "credits": 3
+        },
+        {
+          "code": "CC109",
+          "name": "The Spiritual Harvest",
+          "credits": 3
+        },
+        {
+          "code": "CC110",
+          "name": "Spiritual Battlefields",
+          "credits": 3
+        }
+      ]
+    },
+    {
+      "id": "diploma-ministry",
+      "title": "Diploma in Ministry",
+      "description": "A Diploma in Ministry provides the best ministry preparation and at the end of this program, students will be able to integrate Christian principles in critical thinking and decision making. The program prepares the student for further study into the various tracks of our Bachelor Degrees.",
+      "credits": 30,
+      "duration": "6 Months",
+      "icon": "🎓",
+      "prerequisites": "Certificate in Ministry or 30 credit hours",
+      "courses": [
+        {
+          "code": "DC201",
+          "name": "Learning to lead in ministry",
+          "credits": 3
+        },
+        {
+          "code": "DC202",
+          "name": "The Book of Ephesians",
+          "credits": 3
+        },
+        {
+          "code": "DC203",
+          "name": "Supernatural Healing & Health",
+          "credits": 3
+        },
+        {
+          "code": "DC204",
+          "name": "Supernatural Gifts",
+          "credits": 3
+        },
+        {
+          "code": "DC205",
+          "name": "Praise and Worship",
+          "credits": 3
+        },
+        {
+          "code": "DC206",
+          "name": "Preparing for Ministry",
+          "credits": 3
+        },
+        {
+          "code": "DC207",
+          "name": "Kingdom Principles",
+          "credits": 3
+        },
+        {
+          "code": "DC208",
+          "name": "Anointed for Ministry",
+          "credits": 3
+        },
+        {
+          "code": "DC209",
+          "name": "The 21st Century Church",
+          "credits": 3
+        },
+        {
+          "code": "DC210",
+          "name": "Environmental Analysis",
+          "credits": 3
+        }
+      ]
+    },
+    {
+      "id": "bachelor-theology",
+      "title": "Bachelor Degree in Theology",
+      "description": "The Bachelor Degree in Theology prepares students either for ordained ministry in a Christian church, Bible College or for a wider engagement in society. It provides in-depth Biblical and theological training for kingdom leaders.",
+      "credits": 60,
+      "duration": "12 Months",
+      "icon": "📖",
+      "prerequisites": "Diploma in Ministry or 60 credit hours",
+      "courses": [
+        {
+          "code": "BG301",
+          "name": "Biblical World View",
+          "credits": 4
+        },
+        {
+          "code": "BG302",
+          "name": "The Tabernacle of Moses",
+          "credits": 4
+        },
+        {
+          "code": "BG303",
+          "name": "The Armor Bearer",
+          "credits": 4
+        },
+        {
+          "code": "BG304",
+          "name": "Protocols in Ministry",
+          "credits": 4
+        },
+        {
+          "code": "BG305",
+          "name": "The Power of the Local Church",
+          "credits": 4
+        },
+        {
+          "code": "BG306",
+          "name": "The Five-Fold anointing",
+          "credits": 4
+        },
+        {
+          "code": "BG307",
+          "name": "Know What You Believe",
+          "credits": 4
+        },
+        {
+          "code": "BG308",
+          "name": "World Religions",
+          "credits": 4
+        },
+        {
+          "code": "BP404",
+          "name": "The Prophetic Anointing",
+          "credits": 4
+        },
+        {
+          "code": "BA402",
+          "name": "The Apostolic Anointing",
+          "credits": 4
+        },
+        {
+          "code": "BT401",
+          "name": "Christology",
+          "credits": 4
+        },
+        {
+          "code": "BT402",
+          "name": "Preparing for Tomorrow",
+          "credits": 4
+        },
+        {
+          "code": "BT403",
+          "name": "Systematic Theology",
+          "credits": 4
+        },
+        {
+          "code": "BT404",
+          "name": "Apologetics",
+          "credits": 4
+        },
+        {
+          "code": "BT405",
+          "name": "Homiletics",
+          "credits": 4
+        }
+      ]
+    },
+    {
+      "id": "bachelor-ministry",
+      "title": "Bachelor Degree in Ministry",
+      "description": "The Bachelor of Ministry degree prepares students either for ordained ministry in a Christian church, or for a wider engagement in society. It emphasizes practical pastoral skills and spiritual leadership.",
+      "credits": 60,
+      "duration": "12 Months",
+      "icon": "🎓",
+      "prerequisites": "Diploma in Ministry or 60 credit hours",
+      "courses": [
+        {
+          "code": "BG301",
+          "name": "Biblical World View",
+          "credits": 4
+        },
+        {
+          "code": "BG302",
+          "name": "The Tabernacle of Moses",
+          "credits": 4
+        },
+        {
+          "code": "BG303",
+          "name": "The Armor Bearer",
+          "credits": 4
+        },
+        {
+          "code": "BG304",
+          "name": "Protocols in Ministry",
+          "credits": 4
+        },
+        {
+          "code": "BG305",
+          "name": "The Power of the Local Church",
+          "credits": 4
+        },
+        {
+          "code": "BG306",
+          "name": "The Five-Fold Anointing",
+          "credits": 4
+        },
+        {
+          "code": "BG307",
+          "name": "Know What You Believe",
+          "credits": 4
+        },
+        {
+          "code": "BG308",
+          "name": "World Religions",
+          "credits": 4
+        },
+        {
+          "code": "BP404",
+          "name": "The Prophetic Anointing",
+          "credits": 4
+        },
+        {
+          "code": "BT405",
+          "name": "Homiletics",
+          "credits": 4
+        },
+        {
+          "code": "BM401",
+          "name": "The Ministry of the Holy Spirit",
+          "credits": 4
+        },
+        {
+          "code": "BM402",
+          "name": "Pastoral Ministry",
+          "credits": 4
+        },
+        {
+          "code": "BM403",
+          "name": "Methods of Multiplication",
+          "credits": 4
+        },
+        {
+          "code": "BM404",
+          "name": "Power Principles",
+          "credits": 4
+        },
+        {
+          "code": "BM405",
+          "name": "Journey to Christianity",
+          "credits": 4
+        }
+      ]
+    },
+    {
+      "id": "bachelor-prophetic",
+      "title": "Bachelor Degree in Prophetic Ministry",
+      "description": "The Bachelor Degree in Prophetic Ministry prepares students for ordained ministry with a specific focus on the prophetic office and prophetic gifting in the church.",
+      "credits": 60,
+      "duration": "12 Months",
+      "icon": "🔮",
+      "prerequisites": "Diploma in Ministry or 60 credit hours",
+      "courses": [
+        {
+          "code": "BG301",
+          "name": "Biblical World View",
+          "credits": 4
+        },
+        {
+          "code": "BG302",
+          "name": "The Tabernacle of Moses",
+          "credits": 4
+        },
+        {
+          "code": "BG303",
+          "name": "The Armor Bearer",
+          "credits": 4
+        },
+        {
+          "code": "BG304",
+          "name": "Protocols in Ministry",
+          "credits": 4
+        },
+        {
+          "code": "BG305",
+          "name": "The Power of the Local Church",
+          "credits": 4
+        },
+        {
+          "code": "BG306",
+          "name": "The Five-Fold anointing",
+          "credits": 4
+        },
+        {
+          "code": "BG307",
+          "name": "Know what you believe",
+          "credits": 4
+        },
+        {
+          "code": "BG308",
+          "name": "World Religions",
+          "credits": 4
+        },
+        {
+          "code": "BM401",
+          "name": "The Ministry of the Holy Spirit",
+          "credits": 4
+        },
+        {
+          "code": "BM404",
+          "name": "Power Principles",
+          "credits": 4
+        },
+        {
+          "code": "BP401",
+          "name": "Old Testament Prophets",
+          "credits": 4
+        },
+        {
+          "code": "BP402",
+          "name": "Preparing for Tomorrow",
+          "credits": 4
+        },
+        {
+          "code": "BP403",
+          "name": "Vision and Dreams",
+          "credits": 4
+        },
+        {
+          "code": "BP404",
+          "name": "The Prophetic Anointing",
+          "credits": 4
+        },
+        {
+          "code": "BP405",
+          "name": "Biblical Prophecy",
+          "credits": 4
+        }
+      ]
+    },
+    {
+      "id": "bachelor-apostolic",
+      "title": "Bachelor Degree in Apostolic Ministry",
+      "description": "The Bachelor Degree in Apostolic Ministry prepares students for ordained ministry with emphasis on apostolic functions, church planting, and kingdom expansion.",
+      "credits": 60,
+      "duration": "12 Months",
+      "icon": "⛪",
+      "prerequisites": "Diploma in Ministry or 60 credit hours",
+      "courses": [
+        {
+          "code": "BG301",
+          "name": "Biblical World View",
+          "credits": 4
+        },
+        {
+          "code": "BG302",
+          "name": "The Tabernacle of Moses",
+          "credits": 4
+        },
+        {
+          "code": "BG303",
+          "name": "The Armor Bearer",
+          "credits": 4
+        },
+        {
+          "code": "BG304",
+          "name": "Protocols in Ministry",
+          "credits": 4
+        },
+        {
+          "code": "BG305",
+          "name": "The Power of the Local Church",
+          "credits": 4
+        },
+        {
+          "code": "BG306",
+          "name": "The Five-Fold anointing",
+          "credits": 4
+        },
+        {
+          "code": "BG307",
+          "name": "Know what you believe",
+          "credits": 4
+        },
+        {
+          "code": "BG308",
+          "name": "World Religions",
+          "credits": 4
+        },
+        {
+          "code": "BP404",
+          "name": "The Prophetic Anointing",
+          "credits": 4
+        },
+        {
+          "code": "BM404",
+          "name": "Power Principles",
+          "credits": 4
+        },
+        {
+          "code": "BA401",
+          "name": "The Apostolic Ministry",
+          "credits": 4
+        },
+        {
+          "code": "BA402",
+          "name": "The Apostolic Anointing",
+          "credits": 4
+        },
+        {
+          "code": "BA403",
+          "name": "The Apostolic Church",
+          "credits": 4
+        },
+        {
+          "code": "BA404",
+          "name": "Apostolic Foundations",
+          "credits": 4
+        },
+        {
+          "code": "BA405",
+          "name": "The Apostolic Movement",
+          "credits": 4
+        }
+      ]
+    },
+    {
+      "id": "bachelor-counseling",
+      "title": "Bachelor Degree in Christian Counseling",
+      "description": "The Bachelor Degree in Christian Counseling prepares students to provide Biblical counseling and pastoral care in church and community settings.",
+      "credits": 60,
+      "duration": "12 Months",
+      "icon": "💬",
+      "prerequisites": "Diploma in Ministry or 60 credit hours",
+      "courses": [
+        {
+          "code": "BG301",
+          "name": "Biblical World View",
+          "credits": 4
+        },
+        {
+          "code": "BG302",
+          "name": "The Tabernacle of Moses",
+          "credits": 4
+        },
+        {
+          "code": "BG303",
+          "name": "The Armor Bearer",
+          "credits": 4
+        },
+        {
+          "code": "BG304",
+          "name": "Protocols in Ministry",
+          "credits": 4
+        },
+        {
+          "code": "BG305",
+          "name": "The Power of the Local Church",
+          "credits": 4
+        },
+        {
+          "code": "BG306",
+          "name": "The Five-Fold anointing",
+          "credits": 4
+        },
+        {
+          "code": "BG307",
+          "name": "Know what you believe",
+          "credits": 4
+        },
+        {
+          "code": "BG308",
+          "name": "World Religions",
+          "credits": 4
+        },
+        {
+          "code": "BP404",
+          "name": "The Prophetic Anointing",
+          "credits": 4
+        },
+        {
+          "code": "BM404",
+          "name": "Power Principles",
+          "credits": 4
+        },
+        {
+          "code": "BC401",
+          "name": "Counseling",
+          "credits": 4
+        },
+        {
+          "code": "BC402",
+          "name": "Christian Psychology",
+          "credits": 4
+        },
+        {
+          "code": "BC403",
+          "name": "Building Healthy Families",
+          "credits": 4
+        },
+        {
+          "code": "BC404",
+          "name": "Substance Abuse",
+          "credits": 4
+        },
+        {
+          "code": "BC405",
+          "name": "Overcoming Crisis",
+          "credits": 4
+        }
+      ]
+    },
+    {
+      "id": "bachelor-education",
+      "title": "Bachelor Degree in Christian Education",
+      "description": "The Bachelor Degree in Christian Education prepares students to develop and lead educational ministry programs in churches and Christian organizations.",
+      "credits": 60,
+      "duration": "12 Months",
+      "icon": "📚",
+      "prerequisites": "Diploma in Ministry or 60 credit hours",
+      "courses": [
+        {
+          "code": "BG301",
+          "name": "Biblical World View",
+          "credits": 4
+        },
+        {
+          "code": "BG302",
+          "name": "The Tabernacle of Moses",
+          "credits": 4
+        },
+        {
+          "code": "BG303",
+          "name": "The Armor Bearer",
+          "credits": 4
+        },
+        {
+          "code": "BG304",
+          "name": "Protocols in Ministry",
+          "credits": 4
+        },
+        {
+          "code": "BG305",
+          "name": "The Power of the Local Church",
+          "credits": 4
+        },
+        {
+          "code": "BG306",
+          "name": "The Five-Fold anointing",
+          "credits": 4
+        },
+        {
+          "code": "BG307",
+          "name": "Know what you believe",
+          "credits": 4
+        },
+        {
+          "code": "BG308",
+          "name": "World Religions",
+          "credits": 4
+        },
+        {
+          "code": "BM404",
+          "name": "Power Principles",
+          "credits": 4
+        },
+        {
+          "code": "BP404",
+          "name": "The Prophetic Anointing",
+          "credits": 4
+        },
+        {
+          "code": "BE401",
+          "name": "Adolescent Development",
+          "credits": 4
+        },
+        {
+          "code": "BE402",
+          "name": "Teaching tactics",
+          "credits": 4
+        },
+        {
+          "code": "BE403",
+          "name": "Principles of Christian Education",
+          "credits": 4
+        },
+        {
+          "code": "BE404",
+          "name": "Classroom Management",
+          "credits": 4
+        },
+        {
+          "code": "BE405",
+          "name": "Creative Bible Study Methods",
+          "credits": 4
+        }
+      ]
+    },
+    {
+      "id": "bachelor-entrepreneurship",
+      "title": "Bachelor Degree in Christian Entrepreneurship",
+      "description": "The Bachelor Degree in Christian Entrepreneurship prepares students to apply Biblical principles to business and marketplace ministry leadership.",
+      "credits": 60,
+      "duration": "12 Months",
+      "icon": "💼",
+      "prerequisites": "Diploma in Ministry or 60 credit hours",
+      "courses": [
+        {
+          "code": "BG301",
+          "name": "Biblical World View",
+          "credits": 4
+        },
+        {
+          "code": "BG302",
+          "name": "The Tabernacle of Moses",
+          "credits": 4
+        },
+        {
+          "code": "BG303",
+          "name": "The Armor Bearer",
+          "credits": 4
+        },
+        {
+          "code": "BG304",
+          "name": "Protocols in Ministry",
+          "credits": 4
+        },
+        {
+          "code": "BG305",
+          "name": "The Power of the Local Church",
+          "credits": 4
+        },
+        {
+          "code": "BG306",
+          "name": "The Five-Fold anointing",
+          "credits": 4
+        },
+        {
+          "code": "BG307",
+          "name": "Know what you believe",
+          "credits": 4
+        },
+        {
+          "code": "BG308",
+          "name": "World Religions",
+          "credits": 4
+        },
+        {
+          "code": "BM404",
+          "name": "Power Principles",
+          "credits": 4
+        },
+        {
+          "code": "BP404",
+          "name": "The Prophetic Anointing",
+          "credits": 4
+        },
+        {
+          "code": "BB401",
+          "name": "Management by Objectives",
+          "credits": 4
+        },
+        {
+          "code": "BB402",
+          "name": "The Christian Entrepreneur",
+          "credits": 4
+        },
+        {
+          "code": "BB403",
+          "name": "Millions God's Way",
+          "credits": 4
+        },
+        {
+          "code": "BB404",
+          "name": "The Discipline of Giving",
+          "credits": 4
+        },
+        {
+          "code": "BB405",
+          "name": "A Study of Money",
+          "credits": 4
+        }
+      ]
+    },
+    {
+      "id": "bachelor-honors",
+      "title": "Bachelor Degree in Ministry Honors",
+      "description": "The Honors Degree program is both a capstone to an undergraduate degree and preparation for postgraduate study, demonstrating special proficiency and advanced leadership competence.",
+      "credits": 18,
+      "duration": "6 Months",
+      "icon": "🏆",
+      "prerequisites": "Bachelor Degree or equivalent 120 credit hours",
+      "courses": [
+        {
+          "code": "BH501",
+          "name": "Apostolic Finances",
+          "credits": 3
+        },
+        {
+          "code": "BH502",
+          "name": "Apostolic Leadership",
+          "credits": 3
+        },
+        {
+          "code": "BH503",
+          "name": "Apostolic Administration",
+          "credits": 3
+        },
+        {
+          "code": "BH504",
+          "name": "Apostolic Rule",
+          "credits": 3
+        },
+        {
+          "code": "BH505",
+          "name": "Apostolic Expansion",
+          "credits": 3
+        },
+        {
+          "code": "BH506",
+          "name": "Apostolic Counseling",
+          "credits": 3
+        }
+      ]
+    },
+    {
+      "id": "master-theology",
+      "title": "Master's Degree in Theology",
+      "description": "The Master's Degree in Theology prepares students for advanced professional competence through intensive Biblical studies, theology, and Christian ministries.",
+      "credits": 18,
+      "duration": "6 Months",
+      "icon": "📖",
+      "prerequisites": "Bachelor Degree Honors or equivalent 138 credit hours",
+      "courses": [
+        {
+          "code": "MT501",
+          "name": "Thesis",
+          "credits": 18
+        }
+      ]
+    },
+    {
+      "id": "master-ministry",
+      "title": "Master's Degree in Ministry",
+      "description": "The Master's Degree in Ministry prepares students for advanced professional competence in Christian ministry leadership and pastoral excellence.",
+      "credits": 18,
+      "duration": "6 Months",
+      "icon": "🎓",
+      "prerequisites": "Bachelor Degree Honors or equivalent 138 credit hours",
+      "courses": [
+        {
+          "code": "MT501",
+          "name": "Thesis",
+          "credits": 18
+        }
+      ]
+    },
+    {
+      "id": "master-prophetic",
+      "title": "Master's Degree in Prophetic Ministry",
+      "description": "The Master's Degree in Prophetic Ministry prepares students for advanced competence in prophetic ministry, prophetic gifting, and spiritual sensitivity.",
+      "credits": 18,
+      "duration": "6 Months",
+      "icon": "🔮",
+      "prerequisites": "Bachelor Degree Honors or equivalent 138 credit hours",
+      "courses": [
+        {
+          "code": "MT501",
+          "name": "Thesis",
+          "credits": 18
+        }
+      ]
+    },
+    {
+      "id": "master-apostolic",
+      "title": "Master's Degree in Apostolic Ministry",
+      "description": "The Master's Degree in Apostolic Ministry prepares students for advanced competence in apostolic functions, church planting, and leadership.",
+      "credits": 18,
+      "duration": "6 Months",
+      "icon": "⛪",
+      "prerequisites": "Bachelor Degree Honors or equivalent 138 credit hours",
+      "courses": [
+        {
+          "code": "MT501",
+          "name": "Thesis",
+          "credits": 18
+        }
+      ]
+    },
+    {
+      "id": "master-counseling",
+      "title": "Master's Degree in Christian Counseling",
+      "description": "The Master's Degree in Christian Counseling prepares students for advanced professional competence in Biblical counseling and pastoral care.",
+      "credits": 18,
+      "duration": "6 Months",
+      "icon": "💬",
+      "prerequisites": "Bachelor Degree Honors or equivalent 138 credit hours",
+      "courses": [
+        {
+          "code": "MT501",
+          "name": "Thesis",
+          "credits": 18
+        }
+      ]
+    },
+    {
+      "id": "master-education",
+      "title": "Master's Degree in Christian Education",
+      "description": "The Master's Degree in Christian Education prepares students for advanced professional competence in educational ministry leadership.",
+      "credits": 18,
+      "duration": "6 Months",
+      "icon": "📚",
+      "prerequisites": "Bachelor Degree Honors or equivalent 138 credit hours",
+      "courses": [
+        {
+          "code": "MT501",
+          "name": "Thesis",
+          "credits": 18
+        }
+      ]
+    },
+    {
+      "id": "master-entrepreneurship",
+      "title": "Master's Degree in Christian Entrepreneurship",
+      "description": "The Master's Degree in Christian Entrepreneurship prepares students for advanced professional competence in marketplace ministry and kingdom business.",
+      "credits": 18,
+      "duration": "6 Months",
+      "icon": "💼",
+      "prerequisites": "Bachelor Degree Honors or equivalent 138 credit hours",
+      "courses": [
+        {
+          "code": "MT501",
+          "name": "Thesis",
+          "credits": 18
+        }
+      ]
+    },
+    {
+      "id": "master-leadership",
+      "title": "Master's Degree in Christian Leadership",
+      "description": "The Master's Degree in Christian Leadership prepares students for advanced professional competence in ministry leadership and organizational excellence.",
+      "credits": 18,
+      "duration": "6 Months",
+      "icon": "🏆",
+      "prerequisites": "Bachelor Degree Honors or equivalent 138 credit hours",
+      "courses": [
+        {
+          "code": "MT501",
+          "name": "Thesis",
+          "credits": 18
+        }
+      ]
+    },
+    {
+      "id": "master-business",
+      "title": "Master's Degree in Christian Business Administration",
+      "description": "The Master's Degree in Christian Business Administration prepares students for advanced professional competence in large Christian organizations and Mega churches.",
+      "credits": 36,
+      "duration": "12 Months",
+      "icon": "💼",
+      "prerequisites": "Bachelor Degree or equivalent",
+      "courses": [
+        {
+          "code": "MB501",
+          "name": "Christian Philosophy in Business",
+          "credits": 2
+        },
+        {
+          "code": "MB502",
+          "name": "Christian Leadership and Change Management",
+          "credits": 2
+        },
+        {
+          "code": "MB503",
+          "name": "Organizational Culture, Christian Values, Ethics, Morality",
+          "credits": 2
+        },
+        {
+          "code": "MB504",
+          "name": "Strategic Management",
+          "credits": 2
+        },
+        {
+          "code": "MB505",
+          "name": "Financial Analysis",
+          "credits": 2
+        },
+        {
+          "code": "MB506",
+          "name": "Corporate Financial Management",
+          "credits": 2
+        },
+        {
+          "code": "MB507",
+          "name": "Understanding Christian Non-Profit Organizations",
+          "credits": 2
+        },
+        {
+          "code": "MB508",
+          "name": "Economics in Business",
+          "credits": 2
+        },
+        {
+          "code": "MB509",
+          "name": "Operations and IS Management",
+          "credits": 2
+        },
+        {
+          "code": "MB510",
+          "name": "Project Management",
+          "credits": 2
+        },
+        {
+          "code": "MB511",
+          "name": "Integrated Learning Journal",
+          "credits": 2
+        },
+        {
+          "code": "MB512",
+          "name": "Thesis",
+          "credits": 14
+        }
+      ]
+    },
+    {
+      "id": "doctor-ministry",
+      "title": "Doctor of Ministry Degree",
+      "description": "The Doctor of Ministry degree offers pastors, missionaries and leaders an opportunity for professional and personal growth and advanced competent practice of ministry.",
+      "credits": 36,
+      "duration": "12 Months",
+      "icon": "📖",
+      "prerequisites": "Master's Degree or equivalent 156 credit hours",
+      "courses": [
+        {
+          "code": "DM701",
+          "name": "Ministerial Ethics",
+          "credits": 3
+        },
+        {
+          "code": "DM702",
+          "name": "Adult Faith Development",
+          "credits": 3
+        },
+        {
+          "code": "DM703",
+          "name": "Leading Christian Organizations",
+          "credits": 3
+        },
+        {
+          "code": "DM704",
+          "name": "Cultural Studies for Evangelism",
+          "credits": 3
+        },
+        {
+          "code": "DM705",
+          "name": "Advanced Pastoral & Counseling Ministry",
+          "credits": 3
+        },
+        {
+          "code": "DM706",
+          "name": "Revival History",
+          "credits": 3
+        },
+        {
+          "code": "DM707",
+          "name": "The Ministry of the Holy Spirit",
+          "credits": 3
+        },
+        {
+          "code": "DM709",
+          "name": "Thesis",
+          "credits": 15
+        }
+      ]
+    },
+    {
+      "id": "doctor-business",
+      "title": "Doctor of Christian Business Administration",
+      "description": "The Doctor of Christian Business Administration exposes postgraduate students to advanced coursework and dissertation focused on large Christian corporate organizations and Mega churches.",
+      "credits": 36,
+      "duration": "12 Months",
+      "icon": "💼",
+      "prerequisites": "Master's Degree or equivalent 156 credit hours",
+      "courses": [
+        {
+          "code": "DB701",
+          "name": "Discipleship in the Marketplace",
+          "credits": 3
+        },
+        {
+          "code": "DB702",
+          "name": "Business Ethics and Values in the Workplace",
+          "credits": 3
+        },
+        {
+          "code": "DB703",
+          "name": "Leadership with a Servant Heart",
+          "credits": 3
+        },
+        {
+          "code": "DB704",
+          "name": "Understanding Mega Christian Organizations",
+          "credits": 3
+        },
+        {
+          "code": "DB705",
+          "name": "Values and Moral Authority in Business",
+          "credits": 3
+        },
+        {
+          "code": "DB706",
+          "name": "Strategic Management",
+          "credits": 3
+        },
+        {
+          "code": "DB707",
+          "name": "Corporate Social Responsibility",
+          "credits": 3
+        },
+        {
+          "code": "DB708",
+          "name": "Motivation for Candidacy",
+          "credits": 2
+        },
+        {
+          "code": "DB709",
+          "name": "Thesis",
+          "credits": 13
+        }
+      ]
+    },
+    {
+      "id": "phd-religious-studies",
+      "title": "Doctor of Philosophy in Religious Studies",
+      "description": "The Doctor of Philosophy in Religious Studies helps students develop the skills to do philosophy from a Christian worldview through critical thinking and high-level philosophical research.",
+      "credits": 36,
+      "duration": "12 Months",
+      "icon": "🎓",
+      "prerequisites": "Doctor of Ministry Degree or equivalent 196 credit hours",
+      "courses": [
+        {
+          "code": "PHD801",
+          "name": "The Philosophy of Christian Ministry",
+          "credits": 3
+        },
+        {
+          "code": "PHD802",
+          "name": "The Philosophy of Christian Faith",
+          "credits": 3
+        },
+        {
+          "code": "PHD803",
+          "name": "The Philosophy of Christian Counseling",
+          "credits": 3
+        },
+        {
+          "code": "PHD804",
+          "name": "The Philosophy of Christian Leadership",
+          "credits": 3
+        },
+        {
+          "code": "PHD805",
+          "name": "The Philosophy of Christian Education",
+          "credits": 3
+        },
+        {
+          "code": "PHD806",
+          "name": "The Philosophy of Christian Morality",
+          "credits": 3
+        },
+        {
+          "code": "PHD807",
+          "name": "Dissertation",
+          "credits": 18
+        }
+      ]
+    }
+  ]
+}

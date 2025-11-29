@@ -1,0 +1,44 @@
+[
+  {
+    "id": "1",
+    "src": "/images/placeholder-1.jpg",
+    "alt": "LIMA Graduation Ceremony 2023",
+    "title": "Graduation Ceremony 2023",
+    "category": "events"
+  },
+  {
+    "id": "2",
+    "src": "/images/placeholder-2.jpg",
+    "alt": "Leadership Workshop",
+    "title": "Leadership Workshop",
+    "category": "workshops"
+  },
+  {
+    "id": "3",
+    "src": "/images/placeholder-3.jpg",
+    "alt": "Community Outreach Program",
+    "title": "Community Outreach",
+    "category": "outreach"
+  },
+  {
+    "id": "4",
+    "src": "/images/placeholder-1.jpg",
+    "alt": "Student Fellowship",
+    "title": "Student Fellowship",
+    "category": "fellowship"
+  },
+  {
+    "id": "5",
+    "src": "/images/placeholder-2.jpg",
+    "alt": "Ministry Training Session",
+    "title": "Training Session",
+    "category": "training"
+  },
+  {
+    "id": "6",
+    "src": "/images/placeholder-3.jpg",
+    "alt": "Annual Conference",
+    "title": "Annual Conference",
+    "category": "events"
+  }
+]
