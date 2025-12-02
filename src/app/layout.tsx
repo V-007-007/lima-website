@@ -22,7 +22,7 @@ export const metadata: Metadata = {
   description: 'LIMA for you, LIMA for me, LIMA for all. Empowering kingdom-purpose driven leaders through faith-inspired education.',
   keywords: 'leadership, ministry, academy, faith, education, LIMA',
   authors: [{ name: 'LIMA Academy' }],
-  icons: { icon: '/src/app/icon.png'},
+  icons: { icon: '/public/icon.png'},
   openGraph: {
     title: 'LIMA - Leadership International Ministerial Academy',
     description: 'LIMA for you, LIMA for me, LIMA for all',
@@ -50,5 +50,6 @@ export default function RootLayout({
   )
 
 }
+
 
 
