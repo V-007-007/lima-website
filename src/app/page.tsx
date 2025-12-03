@@ -19,13 +19,13 @@ export default function HomePage() {
 
   const testimonials = [
     {
-      name: 'Rev. Sarah Johnson',
+      name: 'Amb. Irene Udofa-Essien',
       role: 'Graduate 2023',
       content: 'LIMA transformed my approach to ministry leadership. The foundation-like teaching and practical wisdom equipped me to lead with greater confidence and purpose.',
       image: '/images/placeholder-1.jpg',
     },
     {
-      name: 'Pastor Michael Chen',
+      name: 'Dr. Joseph Kui',
       role: 'Graduate 2022',
       content: 'The kingdom-purpose driven curriculum at LIMA gave me the tools to build leaders in my congregation. Truly life-changing.',
       image: '/images/placeholder-2.jpg',
@@ -42,7 +42,7 @@ export default function HomePage() {
           <div className="max-w-3xl mx-auto text-center">
             <h2 className="heading-lg mb-6">Who We Are</h2>
             <p className="text-lg text-gray-600 leading-relaxed mb-8">
-              Leadership Impact Ministers Academy (LIMA) is a faith-inspired institution dedicated to raising 
+              Leadership International Ministerial Academy (LIMA) is a faith-inspired institution dedicated to raising 
               kingdom-purpose driven leaders. We believe in equipping ministers and leaders with the wisdom, 
               knowledge, and practical skills needed to create lasting impact in their communities.
             </p>
@@ -113,4 +113,5 @@ export default function HomePage() {
       </AnimatedSection>
     </>
   )
+
 }
