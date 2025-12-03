@@ -16,7 +16,7 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
   const post = {
     title: 'The Foundation of Kingdom Leadership: Building on Solid Ground',
     date: 'January 15, 2024',
-    author: 'Dr. Samuel Williams',
+    author: 'Dr. Emmanuel Etuk',
     image: '/images/placeholder-1.jpg',
     content: `
       <p>Leadership in the kingdom of God requires a foundation unlike any other. While the world teaches leadership principles based on power, position, and personal achievement, kingdom leadership begins with a completely different paradigm—one rooted in servanthood, sacrifice, and spiritual authority.</p>
@@ -109,7 +109,7 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
                 <div>
                   <h3 className="font-bold text-gray-900 text-lg mb-2">{post.author}</h3>
                   <p className="text-gray-600 leading-relaxed">
-                    Dr. Samuel Williams is a leadership consultant, author, and founding director of LIMA Academy. 
+                    Dr. Emmanuel Etuk is a leadership consultant, author, and founding director of LIMA Academy. 
                     With over 20 years of experience in ministry leadership, he is passionate about equipping 
                     the next generation of kingdom leaders.
                   </p>
@@ -146,3 +146,4 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
     </div>
   )
 }
+
