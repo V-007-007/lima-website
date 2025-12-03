@@ -51,17 +51,17 @@ export default function ContactPage() {
     {
       icon: MapPin,
       title: 'Visit Us',
-      details: ['123 Faith Street', 'Kingdom City, KC 12345'],
+      details: ['No. 32 Itu Road, Uyo', 'Akwa-Ibom, Nigeria, West Africa'],
     },
     {
       icon: Phone,
       title: 'Call Us',
-      details: ['+234 802 302 9201', 'Mon-Fri: 9AM - 5PM EST'],
+      details: ['+231 773 384 331', 'Mon-Fri: 9AM - 5PM EST'],
     },
     {
       icon: Mail,
       title: 'Email Us',
-      details: ['ireneudofa2020@gmail.com'],
+      details: ['leadershipministryteam@gmail.com', 'ireneudofa2020@gmail.com],
     },
     {
       icon: Clock,
@@ -245,7 +245,7 @@ export default function ContactPage() {
               <div className="text-center text-gray-600">
                 <MapPin className="w-12 h-12 mx-auto mb-4" />
                 <p className="text-lg">Map integration coming soon</p>
-                <p className="text-sm">123 Faith Street, Kingdom City, KC 12345</p>
+                <p className="text-sm">No. 32 Itu Road, Uyo, Akwa-Ibom, Nigeria, West Africa</p>
               </div>
             </div>
           </div>
@@ -263,4 +263,5 @@ export default function ContactPage() {
       )}
     </div>
   )
+
 }
