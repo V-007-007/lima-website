@@ -61,7 +61,7 @@ export default function ContactPage() {
     {
       icon: Mail,
       title: 'Email Us',
-      details: ['leadershipministryteam@gmail.com', 'ireneudofa2020@gmail.com],
+      details: ['leadershipministryteam@gmail.com', 'ireneudofa2020@gmail.com'],
     },
     {
       icon: Clock,
@@ -265,3 +265,4 @@ export default function ContactPage() {
   )
 
 }
+
