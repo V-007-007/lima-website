@@ -92,20 +92,20 @@ export default function Footer() {
               <li className="flex items-start space-x-3">
                 <MapPin className="w-5 h-5 text-primary-400 flex-shrink-0 mt-0.5" />
                 <span className="text-sm">
-                  123 Faith Street<br />
-                  Kingdom City, KC 12345
+                  No. 32 Itu Road, Uyo<br />
+                  Uyo, Nigeria, West Africa
                 </span>
               </li>
               <li className="flex items-center space-x-3">
                 <Phone className="w-5 h-5 text-primary-400 flex-shrink-0" />
                 <a href="tel:+1234567890" className="text-sm hover:text-primary-400 transition-colors">
-                  +234 802 302 9201
+                  +231 773 384 331
                 </a>
               </li>
               <li className="flex items-center space-x-3">
                 <Mail className="w-5 h-5 text-primary-400 flex-shrink-0" />
                 <a href="mailto:info@lima-academy.org" className="text-sm hover:text-primary-400 transition-colors">
-                  ireneudofa2020@gmail.com
+                  leadersministryteam@gmail.com
                 </a>
               </li>
             </ul>
@@ -150,4 +150,5 @@ export default function Footer() {
       </div>
     </footer>
   )
+
 }
