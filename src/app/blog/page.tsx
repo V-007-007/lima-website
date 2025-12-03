@@ -9,7 +9,7 @@ export default function BlogPage() {
     date: 'January 15, 2024',
     slug: 'foundation-of-kingdom-leadership',
     image: '/images/placeholder-1.jpg',
-    author: 'Dr. Samuel Williams',
+    author: 'Dr. Emmanuel Etuk',
   }
 
   return (
@@ -71,4 +71,5 @@ export default function BlogPage() {
       </AnimatedSection>
     </div>
   )
+
 }
