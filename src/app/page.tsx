@@ -19,7 +19,7 @@ export default function HomePage() {
 
   const testimonials = [
     {
-      name: 'Amb. Irene Udofa-Essien',
+      name: 'Amb. Prof. Irene Udofa-Essien',
       role: 'Graduate 2023',
       content: 'LIMA transformed my approach to ministry leadership. The foundation-like teaching and practical wisdom equipped me to lead with greater confidence and purpose.',
       image: '/images/placeholder-1.jpg',
@@ -115,3 +115,4 @@ export default function HomePage() {
   )
 
 }
+
