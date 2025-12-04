@@ -56,7 +56,7 @@ export default function ContactPage() {
     {
       icon: Phone,
       title: 'Call Us',
-      details: ['+231 773 384 331', 'Mon-Fri: 9AM - 5PM EST'],
+      details: ['+231 773 384 331', '+234 806 078 4292', '+234 802 302 9201', 'Mon-Fri: 9AM - 5PM EST'],
     },
     {
       icon: Mail,
@@ -265,4 +265,5 @@ export default function ContactPage() {
   )
 
 }
+
 
