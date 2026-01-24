@@ -3,7 +3,7 @@ import { NextResponse } from 'next/server'
 export async function POST(req: Request) {
   const body = await req.json()
 
-  const makeRes = await fetch(process.env.MAKE_WEBHOOK_URL!, {
+  const makeRes = await fetch(process.env.MAKE_WEBHOOK_URL, {
     method: 'POST',
     headers: {
       'Content-Type': 'application/json',
@@ -21,3 +21,4 @@ export async function POST(req: Request) {
     reply: data.reply,
   })
 }
+
