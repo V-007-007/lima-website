@@ -1,6 +1,5 @@
 'use client'
-
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 import { Send } from 'lucide-react'
 
 type Message = {
@@ -12,6 +11,17 @@ export default function Chatbox({ onClose }: { onClose: () => void }) {
   const [messages, setMessages] = useState<Message[]>([])
   const [input, setInput] = useState('')
   const [loading, setLoading] = useState(false)
+  const [sessionId, setSessionId] = useState<string>('')
+
+  // 🔑 Initialize session on mount
+  useEffect(() => {
+    let id = localStorage.getItem('chat_session_id')
+    if (!id) {
+      id = crypto.randomUUID()
+      localStorage.setItem('chat_session_id', id)
+    }
+    setSessionId(id)
+  }, [])
 
   async function sendMessage() {
     if (!input.trim() || loading) return
@@ -19,18 +29,11 @@ export default function Chatbox({ onClose }: { onClose: () => void }) {
     const userMessage = input
     setInput('')
     setLoading(true)
-
+    
     setMessages(prev => [
       ...prev,
       { role: 'user', content: userMessage }
     ])
-
-    // 🔑 persistent session ID
-    let sessionId = localStorage.getItem('chat_session_id')
-    if (!sessionId) {
-      sessionId = crypto.randomUUID()
-      localStorage.setItem('chat_session_id', sessionId)
-    }
 
     try {
       const res = await fetch('/api/chat', {
@@ -39,18 +42,30 @@ export default function Chatbox({ onClose }: { onClose: () => void }) {
           'Content-Type': 'application/json',
         },
         body: JSON.stringify({
+          session_id: sessionId, // Send current session_id
           message: userMessage,
-          session_id: sessionId,
+          page: window.location.pathname, // Current page URL
         }),
       })
 
+      if (!res.ok) {
+        throw new Error(`API error: ${res.status}`)
+      }
+
       const data = await res.json()
+      
+      // 📥 If Make returns a new/updated session_id, store it
+      if (data.session_id && data.session_id !== sessionId) {
+        setSessionId(data.session_id)
+        localStorage.setItem('chat_session_id', data.session_id)
+      }
 
       setMessages(prev => [
         ...prev,
         { role: 'assistant', content: data.reply || 'No response' }
       ])
     } catch (err) {
+      console.error('Chat error:', err)
       setMessages(prev => [
         ...prev,
         { role: 'assistant', content: 'Error processing request.' }
@@ -76,8 +91,13 @@ export default function Chatbox({ onClose }: { onClose: () => void }) {
             {msg.content}
           </div>
         ))}
+        {loading && (
+          <div className="mr-auto bg-gray-100 text-gray-900 px-4 py-2 rounded-lg text-sm">
+            Thinking...
+          </div>
+        )}
       </div>
-
+      
       {/* Input */}
       <div className="border-t p-3 flex gap-2">
         <input
@@ -86,10 +106,12 @@ export default function Chatbox({ onClose }: { onClose: () => void }) {
           onKeyDown={e => e.key === 'Enter' && sendMessage()}
           placeholder="Type your message…"
           className="flex-1 border rounded-lg px-3 py-2 text-sm focus:outline-none"
+          disabled={loading}
         />
         <button
           onClick={sendMessage}
-          className="bg-primary-600 text-white px-4 rounded-lg flex items-center justify-center"
+          disabled={loading}
+          className="bg-primary-600 text-white px-4 rounded-lg flex items-center justify-center disabled:opacity-50"
         >
           <Send className="w-4 h-4" />
         </button>
