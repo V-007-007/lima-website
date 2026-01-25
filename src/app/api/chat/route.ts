@@ -12,6 +12,12 @@ export async function POST(req: Request) {
     if (!process.env.MAKE_WEBHOOK_URL) {
       throw new Error('MAKE_WEBHOOK_URL not set')
     }
+
+    const payload = {
+      session_id: body.session_id,
+      message: body.message,
+      page: body.page || 'unknown' // You can pass this from frontend
+    }
     
     console.log('Sending to Make.com...')
     const makeRes = await fetch(process.env.MAKE_WEBHOOK_URL, {
@@ -36,3 +42,4 @@ export async function POST(req: Request) {
     )
   }
 }
+
