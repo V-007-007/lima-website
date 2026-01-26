@@ -36,7 +36,7 @@ export default function Chatbox({ onClose }: { onClose: () => void }) {
     ])
 
     try {
-      const res = await fetch('https://hook.eu1.make.com/ca02ql9s5cpw152qls0b6avimsltsobn', {
+      const res = await fetch('https://hook.eu1.make.com/7hpa4l4kulghtmdhpfqs44f56v9fr1xi', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
@@ -119,4 +119,5 @@ export default function Chatbox({ onClose }: { onClose: () => void }) {
     </div>
   )
 }
+
 
