@@ -44,12 +44,13 @@ export default function RootLayout({
           {children}
         </main>
         <Footer />
-        //<ChatbotWidget />
+//        <ChatbotWidget />
       </body>
     </html>
   )
 
 }
+
 
 
 
