@@ -3,7 +3,7 @@ import { Inter, Playfair_Display } from 'next/font/google'
 import './globals.css'
 import Navbar from '@/components/Navbar'
 import Footer from '@/components/Footer'
-import ChatbotWidget from '@/components/ChatbotWidget'
+//import ChatbotWidget from '@/components/ChatbotWidget'
 
 const inter = Inter({
   subsets: ['latin'],
@@ -50,6 +50,7 @@ export default function RootLayout({
   )
 
 }
+
 
 
 
