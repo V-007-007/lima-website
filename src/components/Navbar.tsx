@@ -106,7 +106,7 @@ export default function Navbar() {
             ))}
             
             <Link
-              href="/register/academy"
+              href="/register"
               onClick={() => setIsMobileMenuOpen(false)}
               className="btn-primary text-center mt-4"
             >
@@ -118,4 +118,5 @@ export default function Navbar() {
     </nav>
   )
 }
+
 
