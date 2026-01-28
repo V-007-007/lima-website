@@ -29,43 +29,47 @@ export default function Navbar() {
 
   return (
     <nav
-      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
+      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 bg-white/20 backdrop-blur-md border-b border-white/30 ${
         isScrolled
-          ? 'bg-black/95 backdrop-blur-md border-b border-[#262626]'
-          : 'bg-transparent'
+          ? 'bg-white/95 shadow-lg border-gray-200'
+          : 'bg-gradient-to-b from-primary-600/20 to-primary-500/10'
       }`}
     >
       <div className="section-container">
         <div className="flex items-center justify-between h-20">
           {/* Logo */}
-          <Link href="/" className="flex items-center space-x-3 group">
-            <div className="relative w-12 h-12">
+          <Link href="/" className="flex items-center space-x-2 group">
+            <div className="w-12 h-12 relative flex-shrink-0">
               <Image
                 src="/images/logo-nobg.png"
                 alt="LIMA Logo"
                 fill
-                className="object-contain transition-smooth group-hover:scale-105"
+                className="object-contain"
                 priority
               />
             </div>
-            
+            <span className="font-bold text-lg text-gray-900 hidden sm:inline">LIMA</span>
           </Link>
 
           {/* Desktop Navigation */}
-          <div className="hidden lg:flex items-center space-x-1">
+          <div className="hidden lg:flex items-center space-x-8">
             {navLinks.map((link) => (
               <Link
                 key={link.href}
                 href={link.href}
-                className="px-4 py-2 text-sm font-medium text-white rounded-lg transition-smooth hover:bg-[#0a0a0a] hover:text-primary"
+                className={`font-medium transition-colors link-hover ${
+                  isScrolled
+                    ? 'text-gray-700 hover:text-primary-600'
+                    : 'text-gray-800 hover:text-primary-600'
+                }`}
               >
                 {link.label}
               </Link>
             ))}
             
             <Link
-              href="/register/academy"
-              className="ml-4 btn-primary"
+              href="/register"
+              className="btn-primary"
             >
               Register Now
             </Link>
@@ -74,7 +78,11 @@ export default function Navbar() {
           {/* Mobile Menu Button */}
           <button
             onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
-            className="lg:hidden p-2 rounded-lg text-white hover:bg-[#0a0a0a] transition-smooth"
+            className={`lg:hidden p-2 rounded-lg transition-colors ${
+              isScrolled
+                ? 'text-gray-900 hover:bg-gray-100'
+                : 'text-gray-800 hover:bg-white/20'
+            }`}
             aria-label="Toggle menu"
           >
             {isMobileMenuOpen ? (
@@ -87,36 +95,32 @@ export default function Navbar() {
       </div>
 
       {/* Mobile Menu */}
-      <div
-        className={`lg:hidden border-t border-[#262626] bg-black transition-all duration-300 overflow-hidden ${
-          isMobileMenuOpen ? 'max-h-[600px] opacity-100' : 'max-h-0 opacity-0'
-        }`}
-      >
-        <div className="section-container py-6">
-          <div className="flex flex-col space-y-2">
-            {navLinks.map((link) => (
+      {isMobileMenuOpen && (
+        <div className="lg:hidden bg-white/95 backdrop-blur-md border-t border-white/20 animate-slide-down">
+          <div className="section-container py-6">
+            <div className="flex flex-col space-y-4">
+              {navLinks.map((link) => (
+                <Link
+                  key={link.href}
+                  href={link.href}
+                  onClick={() => setIsMobileMenuOpen(false)}
+                  className="text-gray-700 hover:text-primary-600 font-medium transition-colors py-2"
+                >
+                  {link.label}
+                </Link>
+              ))}
+              
               <Link
-                key={link.href}
-                href={link.href}
+                href="/register"
                 onClick={() => setIsMobileMenuOpen(false)}
-                className="px-4 py-3 text-white rounded-lg transition-smooth hover:bg-[#0a0a0a] hover:text-primary"
+                className="btn-primary text-center"
               >
-                {link.label}
+                Register Now
               </Link>
-            ))}
-            
-            <Link
-              href="/register"
-              onClick={() => setIsMobileMenuOpen(false)}
-              className="btn-primary text-center mt-4"
-            >
-              Register Now
-            </Link>
+            </div>
           </div>
         </div>
-      </div>
+      )}
     </nav>
   )
 }
-
-
