@@ -1,5 +1,6 @@
 import Link from 'next/link'
 import { Mail, Phone, MapPin, Facebook, Twitter, Instagram, Linkedin } from 'lucide-react'
+import Image from 'next/image'
 
 export default function Footer() {
   const currentYear = new Date().getFullYear()
@@ -26,7 +27,7 @@ export default function Footer() {
   ]
 
   return (
-    <Footer className="bg-black border-t border-[#262626]">
+    <footer className="bg-black border-t border-[#262626]">
       <div className="section-container section-padding">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12">
           {/* About Column */}
@@ -152,4 +153,5 @@ export default function Footer() {
     </footer>
   )
 }
+
 
