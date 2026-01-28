@@ -41,7 +41,7 @@ export default function Navbar() {
           <Link href="/" className="flex items-center space-x-3 group">
             <div className="relative w-12 h-12">
               <Image
-                src="/images/hero-nobg.png"
+                src="/images/logo-nobg.png"
                 alt="LIMA Logo"
                 fill
                 className="object-contain transition-smooth group-hover:scale-105"
@@ -118,3 +118,4 @@ export default function Navbar() {
     </nav>
   )
 }
+
