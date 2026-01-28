@@ -220,7 +220,7 @@ export default function AdminPage() {
                   : 'text-gray-600 hover:text-gray-900'
               }`}
             >
-              <FileText className="w-5 h-5 inline mr-2" />
+              /* <FileText className="w-5 h-5 inline mr-2" />
               Submissions
             </button>
             <button
@@ -230,7 +230,7 @@ export default function AdminPage() {
                   ? 'text-primary-600 border-b-2 border-primary-600'
                   : 'text-gray-600 hover:text-gray-900'
               }`}
-            >
+            > */
               <Users className="w-5 h-5 inline mr-2" />
               Graduates
             </button>
@@ -404,4 +404,5 @@ export default function AdminPage() {
       </div>
     </div>
   )
+
 }
