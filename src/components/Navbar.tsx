@@ -2,7 +2,6 @@
 
 import { useState, useEffect } from 'react'
 import Link from 'next/link'
-import Image from 'next/image'
 import { Menu, X } from 'lucide-react'
 
 export default function Navbar() {
@@ -18,6 +17,11 @@ export default function Navbar() {
     return () => window.removeEventListener('scroll', handleScroll)
   }, [])
 
+  // Close mobile menu on route change
+  useEffect(() => {
+    setIsMobileMenuOpen(false)
+  }, [])
+
   const navLinks = [
     { href: '/', label: 'Home' },
     { href: '/about', label: 'About' },
@@ -29,47 +33,46 @@ export default function Navbar() {
 
   return (
     <nav
-      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 bg-white/20 backdrop-blur-md border-b border-white/30 ${
+      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
         isScrolled
-          ? 'bg-white/95 shadow-lg border-gray-200'
-          : 'bg-gradient-to-b from-primary-600/20 to-primary-500/10'
+          ? 'bg-black/95 backdrop-blur-md border-b border-[#262626]'
+          : 'bg-transparent'
       }`}
     >
       <div className="section-container">
         <div className="flex items-center justify-between h-20">
           {/* Logo */}
-          <Link href="/" className="flex items-center space-x-2 group">
-            <div className="w-12 h-12 relative flex-shrink-0">
-              <Image
-                src="/images/logo-nobg.png"
-                alt="LIMA Logo"
-                fill
-                className="object-contain"
-                priority
-              />
+          <Link href="/" className="flex items-center space-x-3 group">
+            <div className="relative">
+              <div className="w-12 h-12 bg-primary rounded-xl flex items-center justify-center text-black font-bold text-xl transition-smooth group-hover:scale-105">
+                L
+              </div>
             </div>
-            <span className="font-bold text-lg text-gray-900 hidden sm:inline">LIMA</span>
+            <div className="flex flex-col">
+              <span className="font-bold text-lg text-white">
+                LIMA
+              </span>
+              <span className="text-xs text-muted">
+                Leadership Academy
+              </span>
+            </div>
           </Link>
 
           {/* Desktop Navigation */}
-          <div className="hidden lg:flex items-center space-x-8">
+          <div className="hidden lg:flex items-center space-x-1">
             {navLinks.map((link) => (
               <Link
                 key={link.href}
                 href={link.href}
-                className={`font-medium transition-colors link-hover ${
-                  isScrolled
-                    ? 'text-gray-700 hover:text-primary-600'
-                    : 'text-gray-800 hover:text-primary-600'
-                }`}
+                className="px-4 py-2 text-sm font-medium text-white rounded-lg transition-smooth hover:bg-[#0a0a0a] hover:text-primary"
               >
                 {link.label}
               </Link>
             ))}
             
             <Link
-              href="/register"
-              className="btn-primary"
+              href="/register/academy"
+              className="ml-4 btn-primary"
             >
               Register Now
             </Link>
@@ -78,11 +81,7 @@ export default function Navbar() {
           {/* Mobile Menu Button */}
           <button
             onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
-            className={`lg:hidden p-2 rounded-lg transition-colors ${
-              isScrolled
-                ? 'text-gray-900 hover:bg-gray-100'
-                : 'text-gray-800 hover:bg-white/20'
-            }`}
+            className="lg:hidden p-2 rounded-lg text-white hover:bg-[#0a0a0a] transition-smooth"
             aria-label="Toggle menu"
           >
             {isMobileMenuOpen ? (
@@ -95,32 +94,34 @@ export default function Navbar() {
       </div>
 
       {/* Mobile Menu */}
-      {isMobileMenuOpen && (
-        <div className="lg:hidden bg-white/95 backdrop-blur-md border-t border-white/20 animate-slide-down">
-          <div className="section-container py-6">
-            <div className="flex flex-col space-y-4">
-              {navLinks.map((link) => (
-                <Link
-                  key={link.href}
-                  href={link.href}
-                  onClick={() => setIsMobileMenuOpen(false)}
-                  className="text-gray-700 hover:text-primary-600 font-medium transition-colors py-2"
-                >
-                  {link.label}
-                </Link>
-              ))}
-              
+      <div
+        className={`lg:hidden border-t border-[#262626] bg-black transition-all duration-300 overflow-hidden ${
+          isMobileMenuOpen ? 'max-h-[600px] opacity-100' : 'max-h-0 opacity-0'
+        }`}
+      >
+        <div className="section-container py-6">
+          <div className="flex flex-col space-y-2">
+            {navLinks.map((link) => (
               <Link
-                href="/register"
+                key={link.href}
+                href={link.href}
                 onClick={() => setIsMobileMenuOpen(false)}
-                className="btn-primary text-center"
+                className="px-4 py-3 text-white rounded-lg transition-smooth hover:bg-[#0a0a0a] hover:text-primary"
               >
-                Register Now
+                {link.label}
               </Link>
-            </div>
+            ))}
+            
+            <Link
+              href="/register/academy"
+              onClick={() => setIsMobileMenuOpen(false)}
+              className="btn-primary text-center mt-4"
+            >
+              Register Now
+            </Link>
           </div>
         </div>
-      )}
+      </div>
     </nav>
   )
 }
