@@ -10,7 +10,7 @@ const config: Config = {
     extend: {
       colors: {
         // LIMA Theme Colors
-        background: '#000000',
+        background: '#6e0c0c',
         foreground: '#FFFFFF',
         muted: '#A3A3A3',
         border: '#262626',
@@ -73,3 +73,4 @@ const config: Config = {
 }
 
 export default config
+
