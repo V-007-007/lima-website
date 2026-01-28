@@ -34,7 +34,7 @@ export default function Hero() {
           {/* Badge */}
           <div className="inline-flex items-center space-x-2 badge mb-8">
             <Sparkles className="w-4 h-4" />
-            <span>Leadership Impact Ministers Academy</span>
+            <span>Leadership International Ministerial Academy</span>
           </div>
 
           {/* Main Heading */}
@@ -98,3 +98,4 @@ export default function Hero() {
     </section>
   )
 }
+
