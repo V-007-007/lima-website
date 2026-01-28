@@ -65,7 +65,7 @@ export default function HomePage() {
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {programs.map((program, index) => (
-              <ProgramCard key={index} {...program} />
+              <ProgramCard isClickable={false} key={index} {...program} />
             ))}
           </div>
 
@@ -115,4 +115,5 @@ export default function HomePage() {
   )
 
 }
+
 
