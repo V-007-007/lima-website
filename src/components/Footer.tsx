@@ -26,7 +26,7 @@ export default function Footer() {
   ]
 
   return (
-    <footer className="bg-black border-t border-[#262626]">
+    <Footer className="bg-black border-t border-[#262626]">
       <div className="section-container section-padding">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12">
           {/* About Column */}
@@ -152,3 +152,4 @@ export default function Footer() {
     </footer>
   )
 }
+
