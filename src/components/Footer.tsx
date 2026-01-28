@@ -3,7 +3,7 @@ import Image from 'next/image'
 import { Mail, Phone, MapPin, Facebook, Twitter, Instagram, Linkedin } from 'lucide-react'
 
 export default function Footer() {
-  const currentYear = new Date().getFullYear()
+  const currentYear = new Date().getFullYear() 
 
   const quickLinks = [
     { href: '/about', label: 'About Us' },
@@ -152,3 +152,4 @@ export default function Footer() {
   )
 
 }
+
