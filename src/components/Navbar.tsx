@@ -38,7 +38,7 @@ export default function Navbar() {
           ? 'bg-black/95 backdrop-blur-md border-b border-[#262626]'
           : 'bg-transparent'
       }`}
-    >
+    />
       <div className="section-container">
         <div className="flex items-center justify-between h-20">
           {/* Logo */}
@@ -128,4 +128,5 @@ export default function Navbar() {
     </nav>
   )
 }
+
 
