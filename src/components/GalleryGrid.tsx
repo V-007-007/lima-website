@@ -2,7 +2,7 @@
 
 import { useState } from 'react'
 import Image from 'next/image'
-import { X } from 'lucide-react'
+import { X, ZoomIn } from 'lucide-react'
 
 interface GalleryImage {
   id: string
@@ -25,19 +25,24 @@ export default function GalleryGrid({ images }: GalleryGridProps) {
           <button
             key={image.id}
             onClick={() => setSelectedImage(image)}
-            className="image-zoom relative aspect-square rounded-xl overflow-hidden group cursor-pointer"
+            className="group relative aspect-square rounded-xl overflow-hidden border border-[#262626] hover:border-primary/50 transition-smooth"
           >
             <Image
               src={image.src}
               alt={image.alt}
               fill
-              className="object-cover"
+              className="object-cover transition-transform duration-500 group-hover:scale-105"
             />
-            {image.title && (
-              <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity flex items-end p-4">
-                <h3 className="text-white font-semibold">{image.title}</h3>
+            
+            {/* Overlay */}
+            <div className="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center">
+              <div className="text-center text-white">
+                <ZoomIn className="w-8 h-8 mx-auto mb-2" />
+                {image.title && (
+                  <h3 className="font-semibold">{image.title}</h3>
+                )}
               </div>
-            )}
+            </div>
           </button>
         ))}
       </div>
@@ -45,17 +50,17 @@ export default function GalleryGrid({ images }: GalleryGridProps) {
       {/* Lightbox */}
       {selectedImage && (
         <div
-          className="fixed inset-0 z-50 bg-black/90 flex items-center justify-center p-4"
+          className="fixed inset-0 z-[9999] bg-black/95 flex items-center justify-center p-4 animate-fade-in"
           onClick={() => setSelectedImage(null)}
         >
           <button
             onClick={() => setSelectedImage(null)}
-            className="absolute top-4 right-4 w-12 h-12 bg-white/10 hover:bg-white/20 rounded-full flex items-center justify-center text-white transition-colors"
+            className="absolute top-4 right-4 w-12 h-12 rounded-lg border border-[#262626] hover:border-primary hover:bg-primary/10 flex items-center justify-center text-white transition-smooth"
           >
             <X className="w-6 h-6" />
           </button>
           
-          <div className="relative max-w-5xl max-h-[90vh] w-full h-full">
+          <div className="relative max-w-5xl max-h-[90vh] w-full h-full" onClick={(e) => e.stopPropagation()}>
             <Image
               src={selectedImage.src}
               alt={selectedImage.alt}
@@ -63,9 +68,14 @@ export default function GalleryGrid({ images }: GalleryGridProps) {
               className="object-contain"
             />
           </div>
+
+          {selectedImage.title && (
+            <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 bg-black/80 backdrop-blur-sm px-6 py-3 rounded-xl border border-[#262626]">
+              <p className="text-white font-semibold">{selectedImage.title}</p>
+            </div>
+          )}
         </div>
       )}
     </>
   )
 }
-
