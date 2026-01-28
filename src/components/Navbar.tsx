@@ -43,10 +43,13 @@ export default function Navbar() {
         <div className="flex items-center justify-between h-20">
           {/* Logo */}
           <Link href="/" className="flex items-center space-x-3 group">
-            <div className="relative">
-              <div className="w-12 h-12 bg-primary rounded-xl flex items-center justify-center text-black font-bold text-xl transition-smooth group-hover:scale-105">
-                L
-              </div>
+              <Image
+                src="/images/logo-nobg.png"
+                alt="LIMA Logo"
+                fill
+                className="object-contain"
+                priority
+              />
             </div>
             <div className="flex flex-col">
               <span className="font-bold text-lg text-white">
@@ -125,3 +128,4 @@ export default function Navbar() {
     </nav>
   )
 }
+
