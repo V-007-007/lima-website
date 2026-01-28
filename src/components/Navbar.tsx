@@ -3,6 +3,7 @@
 import { useState, useEffect } from 'react'
 import Link from 'next/link'
 import { Menu, X } from 'lucide-react'
+import Image from 'next/image'
 
 export default function Navbar() {
   const [isScrolled, setIsScrolled] = useState(false)
@@ -32,7 +33,7 @@ export default function Navbar() {
   ]
 
   return (
-    <Navbar
+    <nav
       className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
         isScrolled
           ? 'bg-black/95 backdrop-blur-md border-b border-[#262626]'
@@ -128,6 +129,7 @@ export default function Navbar() {
     </nav>
   )
 }
+
 
 
 
