@@ -39,7 +39,7 @@ export default function AdminPage() {
   })
 
   // Submissions (still mock for now)
-  const [submissions] = useState<Submission[]>([
+  {/*const [submissions] = useState<Submission[]>([
     {
       id: '1',
       type: 'Academy Registration',
@@ -56,7 +56,7 @@ export default function AdminPage() {
       submittedAt: '2024-01-14T14:20:00Z',
       status: 'Reviewed'
     }
-  ])
+  ]) */}
 
   // Graduates loaded from Supabase
   const [graduates, setGraduates] = useState<Graduate[]>([])
@@ -406,5 +406,6 @@ export default function AdminPage() {
   )
 
 }
+
 
 
