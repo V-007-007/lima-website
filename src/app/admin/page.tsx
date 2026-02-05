@@ -249,7 +249,7 @@ export default function AdminPage() {
 
           <div className="p-6">
             {/* Submissions Tab */}
-            {activeTab === 'submissions' && (
+            {/*{activeTab === 'submissions' && (
               <div>
                 <h2 className="text-xl font-bold text-gray-900 mb-6">Recent Submissions</h2>
                 <div className="space-y-4">
@@ -276,7 +276,7 @@ export default function AdminPage() {
                   ))}
                 </div>
               </div>
-            )}
+            )}*/}
 
             {/* Graduates Tab */}
             {activeTab === 'graduates' && (
@@ -406,6 +406,7 @@ export default function AdminPage() {
   )
 
 }
+
 
 
 
