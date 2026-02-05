@@ -206,13 +206,13 @@ export default function AdminPage() {
         {/* Header */}
         <div className="mb-8">
           <h1 className="heading-lg mb-2">Admin Dashboard</h1>
-          <p className="text-gray-600">Manage submissions and graduates</p>
+          <p className="text-gray-600">Add and manage graduates</p>
         </div>
 
         {/* Tabs */}
         <div className="bg-white rounded-xl shadow-md mb-8">
           <div className="flex border-b border-gray-200">
-            <button
+            {/*<button
               onClick={() => setActiveTab('submissions')}
               className={`flex-1 px-6 py-4 font-medium transition-colors ${
                 activeTab === 'submissions'
@@ -220,9 +220,9 @@ export default function AdminPage() {
                   : 'text-gray-600 hover:text-gray-900'
               }`}
             >
-              {/* <FileText className="w-5 h-5 inline mr-2" />
+               <FileText className="w-5 h-5 inline mr-2" />
               Submissions
-            </button>
+            </button> */}
             <button
               onClick={() => setActiveTab('graduates')}
               className={`flex-1 px-6 py-4 font-medium transition-colors ${
@@ -230,7 +230,7 @@ export default function AdminPage() {
                   ? 'text-primary-600 border-b-2 border-primary-600'
                   : 'text-gray-600 hover:text-gray-900'
               }`}
-            > */}
+            > 
               <Users className="w-5 h-5 inline mr-2" />
               Graduates
             </button>
@@ -406,4 +406,5 @@ export default function AdminPage() {
   )
 
 }
+
 
