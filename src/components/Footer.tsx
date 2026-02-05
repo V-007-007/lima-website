@@ -98,14 +98,14 @@ export default function Footer() {
               </li>
               <li className="flex items-center space-x-3">
                 <Phone className="w-5 h-5 text-primary-400 flex-shrink-0" />
-                <a href="tel:+1234567890" className="text-sm hover:text-primary-400 transition-colors">
+                <a href="tel:+2348060784292" className="text-sm hover:text-primary-400 transition-colors">
                   +234 806 078 4292 | +234 802 302 9201
                 </a>
               </li>
               <li className="flex items-center space-x-3">
                 <Mail className="w-5 h-5 text-primary-400 flex-shrink-0" />
-                <a href="mailto:info@lima-academy.org" className="text-sm hover:text-primary-400 transition-colors">
-                  leadersministryteam@gmail.com
+                <a href="mailto:ireneudofa2020@gmail.com" className="text-sm hover:text-primary-400 transition-colors">
+                  leadersministryteam@gmail.com | ireneudofa2020@gmail.com
                 </a>
               </li>
             </ul>
@@ -152,4 +152,5 @@ export default function Footer() {
   )
 
 }
+
 
