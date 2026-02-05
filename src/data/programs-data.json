@@ -1121,8 +1121,63 @@
       "title": "Faculty of Computing & Information Technology",
       "description": "Pathway: Certificate, Diploma, Postgraduate Diploma, Masters, PhD",
       "icon": "🎓"
+    },
+    {
+      "id": "faculty-sciences",
+      "title": "Faculty of Environmental & Agricultural Sciences",
+      "description": "Pathway: Certificate, Diploma, Postgraduate Diploma, Masters, PhD",
+      "icon": "🎓"
+    },
+    {
+      "id": "faculty-health",
+      "title": "Faculty of Health & Life Sciences",
+      "description": "Pathway: Certificate, Diploma, Postgraduate Diploma, Masters, PhD",
+      "icon": "🎓"
+    },
+    {
+      "id": "faculty-business",
+      "title": "Faculty of Business, Management & Entrepreneurship",
+      "description": "Pathway: Certificate, Diploma, Postgraduate Diploma, Masters, PhD",
+      "icon": "🎓"
+    },
+    {
+      "id": "faculty-education",
+      "title": "Faculty of Education & Pedagogical Sciences",
+      "description": "Pathway: Certificate, Diploma, Postgraduate Diploma, Masters, PhD",
+      "icon": "🎓"
+    },
+    {
+      "id": "faculty-law",
+      "title": "Faculty of Law, Governance & Social Sciences",
+      "description": "Pathway: Certificate, Diploma, Postgraduate Diploma, Masters, PhD",
+      "icon": "🎓"
+    },
+    {
+      "id": "faculty-arts",
+      "title": "Faculty of Media, Communication & Arts",
+      "description": "Pathway: Certificate, Diploma, Postgraduate Diploma, Masters, PhD",
+      "icon": "🎓"
+    },
+    {
+      "id": "faculty-theology",
+      "title": "Faculty of Theology, Mission & Chaplaincy",
+      "description": "Pathway: Certificate, Diploma, Postgraduate Diploma, Masters, PhD",
+      "icon": "🎓"
+    },
+    {
+      "id": "faculty-sustainable-development",
+      "title": "Faculty of Sustainable Development & Global Studies",
+      "description": "Pathway: Certificate, Diploma, Postgraduate Diploma, Masters, PhD",
+      "icon": "🎓"
+    },
+    {
+      "id": "faculty-leadership-church-admin",
+      "title": "Leadership and Church Administration",
+      "description": "Pathway: Bachelors, Masters, PhD",
+      "icon": "🎓"
     }
   ]
 }
+
 
 
