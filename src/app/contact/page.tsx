@@ -56,12 +56,12 @@ export default function ContactPage() {
     {
       icon: Phone,
       title: 'Call Us',
-      details: ['+231 773 384 331', '+234 806 078 4292', '+234 802 302 9201', 'Mon-Fri: 9AM - 5PM EST'],
+      details: ['+234 806 078 4292', '+234 802 302 9201', 'Mon-Fri: 9AM - 5PM EST'],
     },
     {
       icon: Mail,
       title: 'Email Us',
-      details: ['leadershipministryteam@gmail.com', 'ireneudofa2020@gmail.com'],
+      details: ['leadersministryteam@gmail.com', 'ireneudofa2020@gmail.com'],
     },
     {
       icon: Clock,
@@ -265,5 +265,6 @@ export default function ContactPage() {
   )
 
 }
+
 
 
