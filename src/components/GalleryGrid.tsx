@@ -6,7 +6,7 @@ import { X, ZoomIn } from 'lucide-react'
 
 interface GalleryImage {
   id: string
-  src: string
+  src: string[]
   alt: string
   title?: string
 }
@@ -79,3 +79,4 @@ export default function GalleryGrid({ images }: GalleryGridProps) {
     </>
   )
 }
+
