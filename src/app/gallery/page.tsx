@@ -7,7 +7,7 @@ export default function GalleryPage() {
   const galleryImages = [
     {
       id: '1',
-      src: '/images/placeholder-1.jpg',
+      src: ['/images/jpegs/DSC_0991.jpg', '/images/jpegs/DSC_1009.jpg', '/images/jpegs/DSC_1014.jpg'],
       alt: 'LIMA Graduation Ceremony 2023',
       title: 'Graduation Ceremony 2023',
     },
@@ -85,4 +85,5 @@ export default function GalleryPage() {
       </AnimatedSection>
     </div>
   )
+
 }
