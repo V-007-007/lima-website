@@ -13,31 +13,31 @@ export default function GalleryPage() {
     },
     {
       id: '2',
-      src: ['/images/placeholder-2.jpg'],
+      src: ['/images/jpegs/DSC_1028.jpg'],
       alt: 'Leadership Workshop',
       title: 'Leadership Workshop',
     },
     {
       id: '3',
-      src: ['/images/placeholder-3.jpg'],
+      src: ['/images/jpegs/DSC_1030.jpg'],
       alt: 'Community Outreach Program',
       title: 'Community Outreach',
     },
     {
       id: '4',
-      src: ['/images/placeholder-1.jpg'],
+      src: ['/images/jpegs/DSC_1041.jpg'],
       alt: 'Student Fellowship',
       title: 'Student Fellowship',
     },
     {
       id: '5',
-      src: ['/images/placeholder-2.jpg'],
+      src: ['/images/jpegs/DSC_1042.jpg'],
       alt: 'Ministry Training Session',
       title: 'Training Session',
     },
     {
       id: '6',
-      src: ['/images/placeholder-3.jpg'],
+      src: ['/images/jpegs/DSC_1050.jpg'],
       alt: 'Annual Conference',
       title: 'Annual Conference',
     },
@@ -87,4 +87,5 @@ export default function GalleryPage() {
   )
 
 }
+
 
