@@ -4,45 +4,40 @@
       "id": "board-001",
       "name": "Dr. Emmanuel Etuk",
       "post": "International President",
-      "image": "public/images/officials/Dr Emmanuel Etuk.jpg"
+      "image": "/images/officials/Dr Emmanuel Etuk.jpg"
     },
     {
       "id": "board-002",
       "name": "Dr. Joseph Kui",
       "post": "Chairman Board of Trustees",
-      "image": "/images/placeholder-2.jpg"
+      "image": "/images/officials/Bishop Joseph Kui.jpg"
     },
     {
       "id": "board-003",
       "name": "Dr. Ernest Prosper",
       "post": "Pro Chancellor",
-      "image": "/images/placeholder-3.jpg"
+      "image": "/images/officials/Dr John Effiong.jpg"
     },
     {
       "id": "board-004",
       "name": "Dr Jesswill Solomon Bassey",
       "post": "Registrar",
-      "image": "/images/placeholder-1.jpg"
+      "image": "/images/officials/placeholder-1.jpg"
     },
     {
       "id": "board-005",
-      "name": "Dr. John Effiong",
-      "post": "Vice Chancellor, Academics",
-      "image": "/images/placeholder-2.jpg"
-    },
-    {
-      "id": "board-006",
       "name": "Amb. Dr. Irene Udofa-Essien",
       "post": "International Dean of Students Affairs",
       "image": "/images/officials/Amb Irene Udofa-Essien.jpg"
     },
     {
-      "id": "board-007",
+      "id": "board-006",
       "name": "Mrs. Karen Emmanuel",
       "post": "Secretary, Board of Senate",
-      "image": "/images/placeholder-1.jpg"
+      "image": "/images/officials/Dr Karen Emmanuel.jpg"
     }
   ]
 }
+
 
 
