@@ -28,7 +28,7 @@ export default function GalleryGrid({ images }: GalleryGridProps) {
             className="group relative aspect-square rounded-xl overflow-hidden border border-[#262626] hover:border-primary/50 transition-smooth"
           >
             <Image
-              src={image.src}
+              src={image.src[0]}
               alt={image.alt}
               fill
               className="object-cover transition-transform duration-500 group-hover:scale-105"
@@ -79,5 +79,6 @@ export default function GalleryGrid({ images }: GalleryGridProps) {
     </>
   )
 }
+
 
 
