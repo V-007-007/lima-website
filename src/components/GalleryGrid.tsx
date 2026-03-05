@@ -62,7 +62,7 @@ export default function GalleryGrid({ images }: GalleryGridProps) {
           
           <div className="relative max-w-5xl max-h-[90vh] w-full h-full" onClick={(e) => e.stopPropagation()}>
             <Image
-              src={selectedImage.src}
+              src={selectedImage.src[0]}
               alt={selectedImage.alt}
               fill
               className="object-contain"
@@ -79,4 +79,5 @@ export default function GalleryGrid({ images }: GalleryGridProps) {
     </>
   )
 }
+
 
