@@ -4,7 +4,7 @@
       "id": "board-001",
       "name": "Dr. Emmanuel Etuk",
       "post": "International President",
-      "image": "/images/placeholder-1.jpg"
+      "image": "public/images/officials/Dr Emmanuel Etuk.jpg"
     },
     {
       "id": "board-002",
@@ -44,4 +44,5 @@
     }
   ]
 }
+
 
